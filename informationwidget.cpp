@@ -24,15 +24,15 @@ InformationWidget::InformationWidget(QWidget *parent)
 
 void InformationWidget::UpdateData(const QString &cpu,const QString &mem,const QString &sbytes,const QString &rbytes)
 {
-	m_infoLabel->setText(QString("CPU:%1↑%2/S\nMEM:%3↓%4/S")
-						 .arg(cpu).arg(sbytes)
-						 .arg(mem).arg(rbytes));
-	//m_infoLabel->adjustSize();
+    m_infoLabel->setText(QString("CPU: %1 ↑ %2/S\nMEM: %3 ↓ %4/S")
+                         .arg(cpu).arg(sbytes)
+                         .arg(mem).arg(rbytes));
+    //m_infoLabel->adjustSize();
 }
 
 void InformationWidget::UpdateData(const QString &sbytes,const QString &rbytes)
 {
-	m_infoLabel->setText(QString("%1/S\n%2/S")
-						 .arg(sbytes)
-						 .arg(rbytes));
+    m_infoLabel->setText(QString(" %1/S\n %2/S")
+                         .arg(sbytes)
+                         .arg(rbytes));
 }
