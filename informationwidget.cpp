@@ -24,7 +24,6 @@ InformationWidget::InformationWidget(QWidget *parent)
 
 void InformationWidget::UpdateData(const QString &cpu,const QString &mem,const QString &sbytes,const QString &rbytes)
 {
-
     QString s_cpu = cpu;
     s_cpu.replace(QString("%"), QString(""));
     int i_cpu = s_cpu.toInt();
@@ -47,8 +46,9 @@ void InformationWidget::UpdateData(const QString &cpu,const QString &mem,const Q
                                "color: white;"
                                "}");
     }
+    
     m_infoLabel->setText(QString("CPU: %1 ↑ %2/S\nMEM: %3 ↓ %4/S")
-                         .arg(s_cpu).arg(sbytes)
+                         .arg(cpu).arg(sbytes)
                          .arg(mem).arg(rbytes));
     //m_infoLabel->adjustSize();
 }
