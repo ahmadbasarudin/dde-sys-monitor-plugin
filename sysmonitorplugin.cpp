@@ -80,8 +80,7 @@ void SysMonitorPlugin::refreshInfo()
 	r=toHumanRead(tmpr,"B",0);
 	
     // 更新内容
-    if(m_pluginWidget&&dismode==Dock::Efficient)m_pluginWidget->UpdateData(strcpu,strmem,s,r);//高效模式
-	else m_pluginWidget->UpdateData(s,r);//时尚模式
+    if(m_pluginWidget)m_pluginWidget->UpdateData(strcpu,strmem,s,r);
 }
 
 const QString SysMonitorPlugin::toHumanRead(unsigned long l,const char *unit,int digit)
@@ -106,7 +105,7 @@ const QString SysMonitorPlugin::toHumanRead(unsigned long l,const char *unit,int
 	else if(count==2)str+="MB";
 	else if(count==3)str+="GB";
 	else if(count==4)str+="TB";
-	else if(count==4)str+="PB";
+	else if(count==4)s+="PB";
 	return str;
 }
 
@@ -130,7 +129,6 @@ void SysMonitorPlugin::init(PluginProxyInterface *proxyInter)
 	font.setFamily("Noto Mono");
 	m_tipsWidget->setFont(font);
 	m_appletWidget->setFont(font);
-	dismode=displayMode();
 
     // 如果插件没有被禁用则在初始化插件时才添加主控件到面板上
     if (!pluginIsDisable()) {
@@ -240,10 +238,4 @@ void SysMonitorPlugin::invokedMenuItem(const QString &itemKey, const QString &me
     } else if ("open") {
         QProcess::startDetached("deepin-system-monitor");
     }
-}
-
-void SysMonitorPlugin::displayModeChanged(const Dock::DisplayMode displayMode) 
-{
-	Q_UNUSED(displayMode);
-	dismode=displayMode;
 }

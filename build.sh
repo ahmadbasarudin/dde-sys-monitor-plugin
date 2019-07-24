@@ -1,9 +1,12 @@
 #!/bin/bash
 mkdir build
-cd build/ || exit
-rm -rf * || exit
-cmake .. || exit
-make || exit
-sudo make install || exit
+cd build/
+if [ $? -ne 0 ]; then
+exit
+fi
+rm -rf *
+cmake ..
+make
+sudo make install
 pkill dde-dock
 dde-dock
