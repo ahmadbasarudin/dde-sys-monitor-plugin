@@ -1,0 +1,8 @@
+/opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/install/strip.dir
+/opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/edit_cache.dir
+/opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/sys_monitor.dir
+/opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/rebuild_cache.dir
+/opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/list_install_components.dir
+/opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/install/local.dir
+/opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/install.dir
+/opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/sys_monitor_autogen.dir

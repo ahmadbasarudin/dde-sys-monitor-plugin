@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/opt/lampp/htdocs/dde-sys-monitor-plugin/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dsys_monitor_EXPORTS -I/opt/lampp/htdocs/dde-sys-monitor-plugin/build/sys_monitor_autogen/include -I/usr/include/libdtk-2.0.16/DCore -I/usr/include/libdtk-2.0.16/DCore/../DWidget -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/usr/include/dde-dock  -fPIC    -DQT_PLUGIN -fPIC -std=gnu++11 -o CMakeFiles/sys_monitor.dir/CMakeFiles/3.11.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/3.11.2/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "file": "/opt/lampp/htdocs/dde-sys-monitor-plugin/build/CMakeFiles/3.11.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+},
+{
+  "directory": "/opt/lampp/htdocs/dde-sys-monitor-plugin/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dsys_monitor_EXPORTS -I/opt/lampp/htdocs/dde-sys-monitor-plugin/build/sys_monitor_autogen/include -I/usr/include/libdtk-2.0.16/DCore -I/usr/include/libdtk-2.0.16/DCore/../DWidget -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/usr/include/dde-dock  -fPIC    -DQT_PLUGIN -fPIC -std=gnu++11 -o CMakeFiles/sys_monitor.dir/informationwidget.cpp.o -c /opt/lampp/htdocs/dde-sys-monitor-plugin/informationwidget.cpp",
+  "file": "/opt/lampp/htdocs/dde-sys-monitor-plugin/informationwidget.cpp"
+},
+{
+  "directory": "/opt/lampp/htdocs/dde-sys-monitor-plugin/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dsys_monitor_EXPORTS -I/opt/lampp/htdocs/dde-sys-monitor-plugin/build/sys_monitor_autogen/include -I/usr/include/libdtk-2.0.16/DCore -I/usr/include/libdtk-2.0.16/DCore/../DWidget -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/usr/include/dde-dock  -fPIC    -DQT_PLUGIN -fPIC -std=gnu++11 -o CMakeFiles/sys_monitor.dir/sysmonitorplugin.cpp.o -c /opt/lampp/htdocs/dde-sys-monitor-plugin/sysmonitorplugin.cpp",
+  "file": "/opt/lampp/htdocs/dde-sys-monitor-plugin/sysmonitorplugin.cpp"
+},
+{
+  "directory": "/opt/lampp/htdocs/dde-sys-monitor-plugin/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dsys_monitor_EXPORTS -I/opt/lampp/htdocs/dde-sys-monitor-plugin/build/sys_monitor_autogen/include -I/usr/include/libdtk-2.0.16/DCore -I/usr/include/libdtk-2.0.16/DCore/../DWidget -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/usr/include/dde-dock  -fPIC    -DQT_PLUGIN -fPIC -std=gnu++11 -o CMakeFiles/sys_monitor.dir/sys_monitor_autogen/mocs_compilation.cpp.o -c /opt/lampp/htdocs/dde-sys-monitor-plugin/build/sys_monitor_autogen/mocs_compilation.cpp",
+  "file": "/opt/lampp/htdocs/dde-sys-monitor-plugin/build/sys_monitor_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/opt/lampp/htdocs/dde-sys-monitor-plugin/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dsys_monitor_EXPORTS -I/opt/lampp/htdocs/dde-sys-monitor-plugin/build/sys_monitor_autogen/include -I/usr/include/libdtk-2.0.16/DCore -I/usr/include/libdtk-2.0.16/DCore/../DWidget -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/usr/include/dde-dock  -fPIC    -DQT_PLUGIN -fPIC -std=gnu++11 -o CMakeFiles/sys_monitor.dir/sys_monitor_autogen/EWIEGA46WW/qrc_sys_monitor.cpp.o -c /opt/lampp/htdocs/dde-sys-monitor-plugin/build/sys_monitor_autogen/EWIEGA46WW/qrc_sys_monitor.cpp",
+  "file": "/opt/lampp/htdocs/dde-sys-monitor-plugin/build/sys_monitor_autogen/EWIEGA46WW/qrc_sys_monitor.cpp"
+}
+]
